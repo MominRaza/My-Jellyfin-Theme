@@ -3,7 +3,7 @@
 .blurhash-canvas,
 .cardBox:not(.visualCardBox) .cardPadder,
 .listItem:hover,
-.listItem:focus ,
+.listItem:focus,
 .listItemImage-large {
   border-radius: 1em;
 }
@@ -21,10 +21,10 @@
 }
 .libraryPage:not(.noSecondaryNavPage),
 .libraryPage {
-  padding-top: 4.5em!important;
+  padding-top: 4.5em !important;
 }
 .itemDetailPage {
-  padding-top: 0!important;
+  padding-top: 0 !important;
 }
 .backdropImage {
   background-position-y: 0;
@@ -49,4 +49,15 @@
 }
 .nowPlayingBarSecondaryText {
   font-size: 92%;
+}
+.emby-button {
+  border-radius: 1em;
+}
+.raised {
+  background: rgb(48 48 48 / 60%);
+}
+.customCssContainer textarea {
+  resize: unset;
+  max-height: 40vh;
+  overflow-y: scroll !important;
 }
