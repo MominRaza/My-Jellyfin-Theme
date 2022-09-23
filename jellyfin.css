@@ -1,0 +1,52 @@
+.cardContent,
+.cardOverlayContainer,
+.blurhash-canvas,
+.cardBox:not(.visualCardBox) .cardPadder,
+.listItem:hover,
+.listItem:focus ,
+.listItemImage-large {
+  border-radius: 1em;
+}
+.sectionTabs {
+  margin-top: -4.3em;
+  align-self: center;
+  width: auto;
+}
+.trackSelections .selectContainer .detailTrackSelect {
+  padding: 0 1.8em 0 0.3em;
+  background: rgba(32, 32, 32, 0.6);
+}
+.skinHeader-withBackground {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.libraryPage:not(.noSecondaryNavPage),
+.libraryPage {
+  padding-top: 4.5em!important;
+}
+.itemDetailPage {
+  padding-top: 0!important;
+}
+.backdropImage {
+  background-position-y: 0;
+}
+.nowPlayingPageImage {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+.nowPlayingSongName.nowPlayingEpisode {
+  font-size: 1.5em;
+}
+.nowPlayingBar .nowPlayingImage {
+  background-size: cover;
+  height: 4.2em;
+  margin-left: 0.5em;
+}
+.nowPlayingBarTop {
+  height: 5.2em;
+}
+.nowPlayingBarText {
+  font-size: 100%;
+}
+.nowPlayingBarSecondaryText {
+  font-size: 92%;
+}
