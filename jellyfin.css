@@ -61,3 +61,6 @@
   max-height: 40vh;
   overflow-y: scroll !important;
 }
+.backgroundContainer.withBackdrop {
+  background-color: rgba(0, 0, 0, 0.4);
+}
